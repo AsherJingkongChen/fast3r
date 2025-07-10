@@ -13,5 +13,5 @@ setup(
     author="Jianing Yang",
     author_email="jianingy@umich.edu",
     url="https://fast3r-3d.github.io/",
-    packages=find_packages(include=["fast3r"]),
+    packages=find_packages(include=["fast3r", "fast3r.*"]),
 )
